@@ -20,7 +20,8 @@ function CarDetail() {
     );
   }
 
-  const imageStyle = { backgroundColor: car.color === 'Black' ? '#222' : car.color === 'White' ? '#f8f8f8' : car.color === 'Silver' ? '#d5d7dc' : car.color === 'Red' ? '#f5a6a0' : '#c6dcff' };
+  // Use a consistent light-blue background for hero images; keep contrast for dark/very light cars.
+  const imageStyle = { backgroundColor: '#c6dcff', color: car.color === 'Black' ? '#fff' : '#0b1320' };
 
   return (
     <main className="car-detail-page">

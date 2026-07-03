@@ -47,7 +47,7 @@ const cars = [
     condition: 'New',
     description: 'Premium performance with sharp styling, composed ride quality, and a cockpit built for driving pleasure.',
     features: ['Navigation', 'Leather Seats', 'Heads-Up Display', 'Sport Mode', 'Wireless Charging'],
-    badge: 'Hot Price',
+    badge: 'Deal of the Week',
   },
   {
     id: 4,
@@ -112,7 +112,7 @@ const cars = [
     condition: 'Certified Pre-Owned',
     description: 'A versatile SUV with strong fuel efficiency, advanced driving aids, and a spacious cabin for every adventure.',
     features: ['All-Wheel Drive', 'Adaptive Cruise', 'Apple CarPlay', 'Roof Rails', 'Rear Cross Traffic Alert'],
-    badge: 'Hot Price',
+    badge: 'Deal of the Week',
   },
   {
     id: 8,

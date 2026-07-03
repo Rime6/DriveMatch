@@ -39,7 +39,11 @@
 }
 
 .car-card__badge {
-  padding: 7px 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 32px;
+  padding: 6px 12px;
   border-radius: 999px;
   font-size: 0.8rem;
   font-weight: 700;
@@ -53,6 +57,11 @@
 .car-card__badge--condition {
   background: rgba(245, 166, 35, 0.12);
   color: var(--accent-secondary);
+}
+
+.car-card__badge--deal {
+  background: #ff8a00;
+  color: #fff;
 }
 
 .car-card__deal-badge {
@@ -73,18 +82,19 @@
   display: grid;
   grid-template-columns: 1fr 1.2fr;
   gap: 20px;
-  align-items: center;
+  align-items: start;
 }
 
 .car-card__image {
   height: 170px;
   border-radius: 18px;
-  background: linear-gradient(180deg, rgba(0, 87, 255, 0.1), rgba(0, 87, 255, 0.02));
+  background-color: #c6dcff;
   display: grid;
   place-items: center;
   color: var(--accent-strong);
   font-weight: 700;
   font-size: 1rem;
+  text-align: center;
 }
 
 .car-card__details {

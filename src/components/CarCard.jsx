@@ -11,9 +11,9 @@ function CarCard({ car, highlightDeal }) {
           <div className="car-card__badges">
             <span className="car-card__badge car-card__badge--type">{car.type}</span>
             <span className="car-card__badge car-card__badge--condition">{car.condition}</span>
+            {car.badge && <span className="car-card__badge car-card__badge--deal">{car.badge}</span>}
           </div>
         </div>
-        {car.badge && <span className="car-card__deal-badge">{car.badge}</span>}
       </div>
       <div className="car-card__body">
         <div className="car-card__image" aria-hidden="true">
