@@ -29,6 +29,7 @@ function CarDetail() {
           <div className="car-detail__hero-label">{car.make} {car.model} 🚘</div>
         </div>
         <div className="car-detail__summary">
+          <Link to="/browse" className="button button--ghost car-detail__back">Back</Link>
           <div className="car-detail__headline">
             <div>
               <p className="eyebrow">{car.condition}</p>

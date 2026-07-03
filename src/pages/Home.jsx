@@ -14,7 +14,7 @@ function Home() {
         <div className="hero-section__content">
           <span className="eyebrow">Premium car shopping</span>
           <h1>Find Your Perfect Drive</h1>
-          <p>Explore hundreds of vehicles tailored to your needs — new, used, and certified pre-owned.</p>
+          <p>Explore hundreds of vehicles tailored to your needs.</p>
           <div className="hero-section__actions">
             <Link to="/browse" className="button button--primary">Browse All Cars</Link>
             <Link to="/deals" className="button button--secondary">View This Week's Deals</Link>
@@ -49,7 +49,7 @@ function Home() {
       <section className="deals-section">
         <div className="section-header section-header--wide">
           <p className="section-eyebrow">Featured Deals</p>
-          <h2>Don't miss out — these deals won't last!</h2>
+          <h2>Don't miss out, these deals won't last!</h2>
         </div>
         <div className="deal-cards">
           {featured.map((car) => (

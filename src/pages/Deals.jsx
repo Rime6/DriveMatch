@@ -10,7 +10,7 @@ function Deals() {
       <div className="deals-hero">
         <p className="section-eyebrow">Limited time offers</p>
         <h1>🔥 This Week's Hottest Deals</h1>
-        <p>Act fast — limited inventory! Find standout savings on premium cars today.</p>
+        <p>Act fast, limited inventory! Find standout savings on premium cars today.</p>
       </div>
       <div className="deals-grid">
         {dealCars.map((car) => (

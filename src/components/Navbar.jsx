@@ -10,6 +10,9 @@ function Navbar() {
           <span>DriveMatch</span>
         </NavLink>
         <nav className="navbar__nav" aria-label="Primary navigation">
+          <NavLink to="/" end className={({ isActive }) => isActive ? 'navbar__link navbar__link--active' : 'navbar__link'}>
+            Home
+          </NavLink>
           <NavLink to="/browse" className={({ isActive }) => isActive ? 'navbar__link navbar__link--active' : 'navbar__link'}>
             Browse Cars
           </NavLink>

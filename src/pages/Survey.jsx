@@ -28,7 +28,7 @@ function Survey() {
       <div className="survey-header">
         <span className="eyebrow">Your voice matters</span>
         <h1>We'd Love to Hear From You 💬</h1>
-        <p>Your feedback helps us improve DriveMatch for everyone. This survey takes less than 2 minutes — we promise it's worth it! 😊</p>
+        <p>Your feedback helps us improve DriveMatch for everyone. This survey takes less than 2 minutes. We promise it's worth it! 😊</p>
       </div>
       {submitted ? (
         <div className="survey-success-card">

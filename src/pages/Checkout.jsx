@@ -169,7 +169,7 @@ function Checkout() {
       {currentStep === 3 && (
         <section className="checkout-panel">
           <h1>Payment</h1>
-          <p>🔒 Secure checkout — your information is encrypted.</p>
+          <p>🔒 Secure checkout - your information is encrypted.</p>
           <div className="checkout-form-grid">
             <label>
               <span>Cardholder Name</span>
