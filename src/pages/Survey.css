@@ -35,7 +35,8 @@
 
 .radio-option,
 .checkbox-option {
-  display: inline-flex;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 12px;
   padding: 14px 16px;
@@ -43,10 +44,21 @@
   border: 1px solid rgba(28, 31, 56, 0.12);
   background: #fff;
   cursor: pointer;
+  width: 100%;
+}
+
+.radio-option span,
+.checkbox-option span {
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+  white-space: nowrap;
 }
 
 .radio-option input,
 .checkbox-option input {
+  order: 2;
+  margin-left: 16px;
   accent-color: var(--accent-secondary);
 }
 
