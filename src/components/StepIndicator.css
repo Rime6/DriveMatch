@@ -1,0 +1,64 @@
+.step-indicator {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.step-indicator__step {
+  background: var(--surface);
+  border-radius: 14px;
+  padding: 18px 16px;
+  border: 1px solid rgba(28, 31, 56, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.step-indicator__step--completed {
+  background: #F5F9FF;
+  border-color: rgba(0, 87, 255, 0.15);
+}
+
+.step-indicator__step--active {
+  background: rgba(0, 87, 255, 0.08);
+  border-color: rgba(0, 87, 255, 0.35);
+}
+
+.step-indicator__step--upcoming {
+  opacity: 0.7;
+}
+
+.step-indicator__icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #fff;
+  border: 1px solid rgba(28, 31, 56, 0.08);
+  font-weight: 700;
+}
+
+.step-indicator__step--completed .step-indicator__icon {
+  background: var(--accent-secondary);
+  color: #fff;
+  border-color: transparent;
+}
+
+.step-indicator__step--active .step-indicator__icon {
+  background: var(--accent);
+  color: #fff;
+  border-color: transparent;
+}
+
+.step-indicator__label {
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+@media (max-width: 780px) {
+  .step-indicator {
+    grid-template-columns: 1fr;
+  }
+}

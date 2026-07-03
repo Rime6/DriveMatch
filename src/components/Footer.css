@@ -1,0 +1,51 @@
+.footer {
+  background: var(--nav);
+  color: #fff;
+  padding: 40px 0 24px;
+}
+
+.footer__content {
+  width: min(1200px, calc(100% - 32px));
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.footer__brand {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.footer__links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer__links a {
+  color: rgba(255, 255, 255, 0.84);
+  font-weight: 500;
+}
+
+.footer__links a:hover {
+  color: #fff;
+}
+
+.footer__note {
+  width: min(1200px, calc(100% - 32px));
+  margin: 24px auto 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 720px) {
+  .footer__content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
